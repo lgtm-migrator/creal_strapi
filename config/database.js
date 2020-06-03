@@ -13,8 +13,12 @@ module.exports = ({ env }) => ({
         host: env('DATABASE_HOST', 'postgres'),
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'strapi'),
-        username: env('DATABASE_USERNAME', fs.readFileSync(secretPostgresUserPath, 'utf-8')),
-        password: env('DATABASE_PASSWORD', fs.readFileSync(secretPostgresPasswordPath, 'utf-8')),
+        username: env('DATABASE_USERNAME', (fs.existsSync(secretPostgresUserPath))
+        ? fs.readFileSync(secretPostgresUserPath, 'utf-8')
+        : undefined),
+        password: env('DATABASE_PASSWORD', (fs.existsSync(secretPostgresPasswordPath))
+        ? fs.readFileSync(secretPostgresPasswordPath, 'utf-8')
+        : undefined),
         ssl: env.bool('DATABASE_SSL', false),
       },
       options: {}
