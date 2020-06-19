@@ -8639,6 +8639,26 @@ strapi-helper-plugin@3.0.3:
     styled-components "^5.0.0"
     whatwg-fetch "^2.0.3"
 
+strapi-helper-plugin@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.0.4.tgz#4b177c47c7fa2aaf87dffce8758565168595f2e4"
+  integrity sha512-3EeiSk7r3Y5IL64N8QW91Kg9cRqRgOIMwP6F6siptfBhZnxtEygjIL+nGuJCFjighUY4Vdr2XJVNZUyZDkEX+w==
+  dependencies:
+    bootstrap "^4.3.1"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "^4.17.5"
+    moment "^2.16.0"
+    react "^16.9.0"
+    react-dom "^16.9.0"
+    react-intl "^4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^2.0.3"
+
 strapi-plugin-content-manager@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.0.3.tgz#afc87ec552900d4c2029c3d9cd99c2fcd0e1c8a5"
@@ -8701,10 +8721,10 @@ strapi-plugin-email@3.0.3:
     strapi-provider-email-sendmail "3.0.3"
     strapi-utils "3.0.3"
 
-strapi-plugin-upload@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.0.3.tgz#61b7be62546ed4d2b66a8eb9ba662090aaea1b31"
-  integrity sha512-c3GH2hcrDPM9C9m0lm+PKog4OnaNHirERrarlKGl1J8oH2mqCo8KzlNNDWx+xbua+DSO/E6ttTKNEa0zv5u1xQ==
+strapi-plugin-upload@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.0.4.tgz#84ba72a85c99e034f86b32d12f1d989c1698ea92"
+  integrity sha512-I2fPQnzmMAKzFFA9Ly0Us7gHO72ETRgunfwkaE41HBQVIJ9+rrV1dV/PsdM2sdapmQw16Fx+HySX3H+bXTKcFQ==
   dependencies:
     byte-size "^6.2.0"
     cropperjs "^1.5.6"
@@ -8725,9 +8745,9 @@ strapi-plugin-upload@3.0.3:
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.24.1"
-    strapi-helper-plugin "3.0.3"
-    strapi-provider-upload-local "3.0.3"
-    strapi-utils "3.0.3"
+    strapi-helper-plugin "3.0.4"
+    strapi-provider-upload-local "3.0.4"
+    strapi-utils "3.0.4"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -8765,15 +8785,28 @@ strapi-provider-email-sendmail@3.0.3:
     sendmail "^1.6.1"
     strapi-utils "3.0.3"
 
-strapi-provider-upload-local@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.0.3.tgz#09c903618eb9975e2aa68726e32c32135aa0c10d"
-  integrity sha512-wFvOAN9LlDrbS6LSSuWtYdbGR/u0IsFR0JNAMUVVFnFp2/vzu0ewcVZnXWAWCOKrhW6+EK9+2HmC3B2jUFmsrQ==
+strapi-provider-upload-local@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.0.4.tgz#c2ab761f3e739e6e424adea0041b0bdf53884ef6"
+  integrity sha512-F5ZwvPbuhDjQOu1Ju00buJg7ej0jzVhsaBX8St9v0hjpXrntsyqjoDvbl48/Nja7ZhpOTIr9nhS4Zb4eHqX1RQ==
 
 strapi-utils@3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.3.tgz#5a5e3767df20c113df2dd5b7a71e8e0c7eab9c77"
   integrity sha512-z5La2KuBCJKbx1um2s4SCtFy0bu7FEUsxfISOagidc8JnM86A81MEojZWbJElXRAj6FDOJoKGwVs4Wk25jYA1g==
+  dependencies:
+    "@sindresorhus/slugify" "^0.11.0"
+    date-fns "^2.8.1"
+    lodash "4.17.12"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+    yup "0.28.1"
+
+strapi-utils@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.4.tgz#c7d753e602d0644226669c88fa92806051d9c966"
+  integrity sha512-+2EJN2/rVprm2/DE78sCmwVTzeUhcyqSYLY5XEtVo+EEorSDTUm5F6F80eUze0hNQEQVPgwdZKL/eq+JoC6bTA==
   dependencies:
     "@sindresorhus/slugify" "^0.11.0"
     date-fns "^2.8.1"
