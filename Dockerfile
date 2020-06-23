@@ -2,7 +2,7 @@
 # strapi production build.
 
 # Should be the specific version of strapi/base:alpine.
-FROM strapi/base:12-alpine@sha256:0343ca23bbc02e102b2af7e21fca8374cdc594a1f2b1ebb46add7395108e14be AS production
+FROM strapi/base:12-alpine@sha256:6f16e05812a6d8000987edffe381d59e1ec3590438ffa865dcbac27f7c9491cb AS production
 
 ENV NODE_ENV=production
 
