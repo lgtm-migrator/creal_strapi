@@ -13,15 +13,15 @@
   "dependencies": {
     "knex": "0.21.2",
     "pg": "8.3.0",
-    "strapi": "3.0.6",
-    "strapi-admin": "3.0.6",
-    "strapi-connector-bookshelf": "3.0.6",
-    "strapi-plugin-content-manager": "3.0.6",
-    "strapi-plugin-content-type-builder": "3.0.6",
-    "strapi-plugin-email": "3.0.6",
+    "strapi": "3.1.0",
+    "strapi-admin": "3.1.0",
+    "strapi-connector-bookshelf": "3.1.0",
+    "strapi-plugin-content-manager": "3.1.0",
+    "strapi-plugin-content-type-builder": "3.1.0",
+    "strapi-plugin-email": "3.1.0",
     "strapi-plugin-upload": "3.1.0",
-    "strapi-plugin-users-permissions": "3.0.6",
-    "strapi-utils": "3.0.6"
+    "strapi-plugin-users-permissions": "3.1.0",
+    "strapi-utils": "3.1.0"
   },
   "author": {
     "name": "Jonas Thelemann"
