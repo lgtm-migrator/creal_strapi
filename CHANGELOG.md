@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/dargmuesli/creal_strapi/compare/1.1.0...1.1.1) (2020-10-06)
+
+
+### Bug Fixes
+
+* **ci:** work around no build stage ([12ae81a](https://github.com/dargmuesli/creal_strapi/commit/12ae81a5d90a572fd9484a9cd784bc068036a82d))
+
 # [1.1.0](https://github.com/dargmuesli/creal_strapi/compare/1.0.1...1.1.0) (2020-10-06)
 
 
