@@ -9491,6 +9491,33 @@ strapi-helper-plugin@3.2.0:
     styled-components "^5.0.0"
     whatwg-fetch "^3.3.1"
 
+strapi-helper-plugin@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.2.1.tgz#4360e2bc2baf2791a44256110562de456c4724a6"
+  integrity sha512-p9zQ8S1eQ/5/Oxyk2J+zkIVuhN2BlhgWNb4xKh5yFKQMtQTO2t5j8vIf1durieR7T5VGHP71WMQS0H1/JHmXVA==
+  dependencies:
+    "@buffetjs/core" "3.3.1"
+    "@buffetjs/custom" "3.3.1"
+    "@buffetjs/hooks" "3.3.1"
+    "@buffetjs/icons" "3.3.1"
+    "@buffetjs/styles" "3.3.1"
+    "@buffetjs/utils" "3.3.1"
+    bootstrap "^4.5.2"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.19"
+    moment "^2.16.0"
+    react "^16.13.1"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^3.3.1"
+
 strapi-plugin-content-manager@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.2.0.tgz#23617cf5072d284a5726e5b0ec100e5e4d274cab"
@@ -9576,10 +9603,10 @@ strapi-plugin-email@3.2.0:
     strapi-provider-email-sendmail "3.2.0"
     strapi-utils "3.2.0"
 
-strapi-plugin-upload@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.2.0.tgz#f0b495134cf99aeb9280a3656990570befa2cf2b"
-  integrity sha512-NJUM1oyOnQaM2NroILD3AYwEoc7QyX75swtrTaxmFxwVkPS4+PDsvcIqX/kwbn2iUvMlLQ87rVbq9F8Nxt8Kpw==
+strapi-plugin-upload@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.2.1.tgz#bc4febcbb97491cec67bc9c1a8d3dd8ee7cae865"
+  integrity sha512-rJ6D23IdI8DYjccKB8f5gFrbafPnyaIZfJfbMt2y9CoYkHq06EGG9Tk3JEBVDKwnQy50NkkQlLbn5tJZ7o77dw==
   dependencies:
     "@buffetjs/core" "3.3.1"
     "@buffetjs/custom" "3.3.1"
@@ -9595,7 +9622,7 @@ strapi-plugin-upload@3.2.0:
     koa-range "0.3.0"
     koa-static "^5.0.0"
     lodash "4.17.19"
-    node-fetch "2.6.0"
+    node-fetch "2.6.1"
     react "^16.13.1"
     react-copy-to-clipboard "^5.0.1"
     react-dom "^16.9.0"
@@ -9605,9 +9632,9 @@ strapi-plugin-upload@3.2.0:
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.26.0"
-    strapi-helper-plugin "3.2.0"
-    strapi-provider-upload-local "3.2.0"
-    strapi-utils "3.2.0"
+    strapi-helper-plugin "3.2.1"
+    strapi-provider-upload-local "3.2.1"
+    strapi-utils "3.2.1"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -9651,15 +9678,27 @@ strapi-provider-email-sendmail@3.2.0:
     sendmail "^1.6.1"
     strapi-utils "3.2.0"
 
-strapi-provider-upload-local@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.2.0.tgz#71587138e7f1aa68bd680a0a094caf8ea95c5c8d"
-  integrity sha512-Vbk0zzD2V2mp4nsZ24Mgyhz575YdrXaB1cMhEAGp1hBmJIE13XhhT2NYUlU7P4iQuXmYqDp6rI57n5qcSbuGMA==
+strapi-provider-upload-local@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.2.1.tgz#d148f57d4bb68dedec609be877e002381e0f3da9"
+  integrity sha512-oTM1pW7lO1V1gDap9vPhd+Z2Cnz1tG7kcmF5h7NS5Rut7g8r9E2p5OB3sHZ6Kz5yfdHlblURELJmaAIMwbs30g==
 
 strapi-utils@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.2.0.tgz#2abfadac1636961ff9d8b618cafc240e790b6ce4"
   integrity sha512-GPmVVSK8F+b5YP66qiQWpknmEdn0e3qGEeLtijnC2MamYNovNQY56ToBf169FAsqcn8d65NguD5ig0tJXeFp8g==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.2.1.tgz#b3ad50c193137cd773905c0aa2d00cf756b8d370"
+  integrity sha512-VQgnMxJvWys613FEaYM7ErzmvdchojVmYmmVOqzTlo9P4pJt4JN2q6jidpgsUFZR3r2/VFfUA5TPvFMZtXtOpg==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
