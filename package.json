@@ -12,7 +12,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "knex": "0.21.9",
+    "knex": "0.21.10",
     "pg": "8.4.2",
     "strapi": "3.2.5",
     "strapi-admin": "3.2.5",
