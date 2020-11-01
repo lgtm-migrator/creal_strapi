@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/dargmuesli/creal_strapi/compare/1.1.2...1.1.3) (2020-11-01)
+
+
+### Bug Fixes
+
+* **release:** schedule release ([faddf83](https://github.com/dargmuesli/creal_strapi/commit/faddf832197d8c61c25d3fe47795dc8883061390))
+
 ## [1.1.2](https://github.com/dargmuesli/creal_strapi/compare/1.1.1...1.1.2) (2020-10-15)
 
 
