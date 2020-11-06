@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/dargmuesli/creal_strapi/compare/1.1.4...1.1.5) (2020-11-06)
+
+
+### Bug Fixes
+
+* **ci:** correct target ([50abe93](https://github.com/dargmuesli/creal_strapi/commit/50abe930a33f9211398a582977905c1aee9db06f))
+
 ## [1.1.4](https://github.com/dargmuesli/creal_strapi/compare/1.1.3...1.1.4) (2020-11-06)
 
 
