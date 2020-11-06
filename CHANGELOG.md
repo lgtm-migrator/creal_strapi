@@ -1,3 +1,17 @@
+## [1.1.4](https://github.com/dargmuesli/creal_strapi/compare/1.1.3...1.1.4) (2020-11-06)
+
+
+### Bug Fixes
+
+* **database:** set pool size to 0 ([80f8c4c](https://github.com/dargmuesli/creal_strapi/commit/80f8c4c72cf3d68298fe3ed1bd223f2421ad4d3c))
+* **docker:** correct stage name ([902d5a2](https://github.com/dargmuesli/creal_strapi/commit/902d5a252a07d3e2780033c7840b0ff6907e86c1))
+* **server:** add missing secret declaration ([6b0c6ac](https://github.com/dargmuesli/creal_strapi/commit/6b0c6ac3c0902bbb31cca6ba7c5278d758f1aaea))
+
+
+### Performance Improvements
+
+* **docker:** clear yarn cache ([b6ac85a](https://github.com/dargmuesli/creal_strapi/commit/b6ac85a78ceb97be6c8cc60616e993b7afaa8c81))
+
 ## [1.1.3](https://github.com/dargmuesli/creal_strapi/compare/1.1.2...1.1.3) (2020-11-01)
 
 
