@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/dargmuesli/creal_strapi/compare/1.1.5...1.1.6) (2020-11-06)
+
+
+### Bug Fixes
+
+* **database:** set more pool settings ([774b77d](https://github.com/dargmuesli/creal_strapi/commit/774b77db6fd46ee8e32213308af3de9e82716b04))
+
 ## [1.1.5](https://github.com/dargmuesli/creal_strapi/compare/1.1.4...1.1.5) (2020-11-06)
 
 
