@@ -21,7 +21,11 @@ module.exports = ({ env }) => ({
         : undefined),
         ssl: env.bool('DATABASE_SSL', false),
       },
-      options: {}
+      options: {
+        pool: {
+          min: 0,
+        }
+      }
     },
   },
 });
