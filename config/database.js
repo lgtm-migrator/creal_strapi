@@ -21,14 +21,7 @@ module.exports = ({ env }) => ({
         : undefined),
         ssl: env.bool('DATABASE_SSL', false),
       },
-      options: {
-        pool: {
-          min: 0,
-          max: 5,
-          acquireTimeoutMillis: 60000,
-          idleTimeoutMillis: 600000,
-        }
-      }
+      options: {}
     },
   },
 });
