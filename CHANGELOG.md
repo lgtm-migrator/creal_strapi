@@ -1,3 +1,15 @@
+## [1.1.7](https://github.com/dargmuesli/creal_strapi/compare/1.1.6...1.1.7) (2020-11-12)
+
+
+### Bug Fixes
+
+* **release:** schedule release ([8763d3f](https://github.com/dargmuesli/creal_strapi/commit/8763d3f716d26da1f231968b0de53aa73116c4c4))
+
+
+### Reverts
+
+* **database:** remove default connection options ([60c7ddd](https://github.com/dargmuesli/creal_strapi/commit/60c7dddf1d02e4d0167f9c2dfbdc9194cda3aedf))
+
 ## [1.1.6](https://github.com/dargmuesli/creal_strapi/compare/1.1.5...1.1.6) (2020-11-06)
 
 
