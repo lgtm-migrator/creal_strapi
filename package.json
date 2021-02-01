@@ -1,7 +1,7 @@
 {
   "name": "creal_strapi",
   "private": true,
-  "version": "1.1.11",
+  "version": "1.1.12",
   "scheduleVersion": "1.1.12",
   "description": "Headless API CMS for cReal's website.",
   "author": "Jonas Thelemann <e-mail@jonas-thelemann.de>",
