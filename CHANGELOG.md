@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/dargmuesli/creal_strapi/compare/1.1.12...1.2.0) (2021-02-09)
+
+
+### Bug Fixes
+
+* **git:** ignore strapi updater ([211076b](https://github.com/dargmuesli/creal_strapi/commit/211076b362153cb1d93a067dc56372e410a48d2e))
+
+
+### Features
+
+* **server:** read secret file environment variable ([4151fa5](https://github.com/dargmuesli/creal_strapi/commit/4151fa5f5f6dceb014b3e863fc2e7ec87e415acd))
+
 ## [1.1.12](https://github.com/dargmuesli/creal_strapi/compare/1.1.11...1.1.12) (2021-02-01)
 
 
