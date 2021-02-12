@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/dargmuesli/creal_strapi/compare/1.2.1...1.2.2) (2021-02-12)
+
+
+### Bug Fixes
+
+* **ci:** correct pushing ([6f98239](https://github.com/dargmuesli/creal_strapi/commit/6f98239b6ddd0cf35fad78bb44f18deb642a117c))
+
 ## [1.2.1](https://github.com/dargmuesli/creal_strapi/compare/1.2.0...1.2.1) (2021-02-12)
 
 
