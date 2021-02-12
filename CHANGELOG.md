@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/dargmuesli/creal_strapi/compare/1.2.0...1.2.1) (2021-02-12)
+
+
+### Bug Fixes
+
+* **ci:** run on "create" too ([21c7adf](https://github.com/dargmuesli/creal_strapi/commit/21c7adf34866d6ca2fa972c81a04ffd61d9d90c5))
+
 # [1.2.0](https://github.com/dargmuesli/creal_strapi/compare/1.1.12...1.2.0) (2021-02-09)
 
 
