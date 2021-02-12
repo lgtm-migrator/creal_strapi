@@ -18,7 +18,7 @@ jobs:
         uses: docker/setup-buildx-action@v1.1.1
 
       - name: Registry login
-        if: github.event_name == 'create' || github.event_name == 'push'
+        if: github.event_name != 'pull_request'
         run: echo "${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USER_NAME }}" --password-stdin
 
       - name: Build
