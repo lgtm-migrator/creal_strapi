@@ -12,7 +12,7 @@ WORKDIR /srv/app/
 
 COPY ./ /srv/app/
 
-RUN yarn install && yarn cache clean
-RUN yarn build
+RUN yarn install && yarn cache clean \
+  && yarn build
 
 CMD ["yarn", "start"]
