@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/dargmuesli/creal_strapi/compare/1.2.10...1.2.11) (2021-06-05)
+
+
+### Bug Fixes
+
+* **docker:** use alpine ([42d0e5b](https://github.com/dargmuesli/creal_strapi/commit/42d0e5b5f0a015728316d7538264ca77af26ce6a))
+
 ## [1.2.10](https://github.com/dargmuesli/creal_strapi/compare/1.2.9...1.2.10) (2021-06-05)
 
 
