@@ -3,7 +3,7 @@
 
 # Should be the specific version of strapi/base.
 # v14 is not kept up to date as of 2021-06-05.
-FROM strapi/base:12-alpine@sha256:8c0bf08475eb479296768dc4ecf03d20afa7d275501ea5a12a5bf0590048d480 AS development
+FROM strapi/base:12-alpine@sha256:d91a598b735cfd19eb440e344389f575de9a92e593ab00b86976fc374e0fe96d AS development
 
 ENV NODE_ENV=production
 
