@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/dargmuesli/creal_strapi/compare/1.2.9...1.2.10) (2021-06-05)
+
+
+### Bug Fixes
+
+* **docker:** use v12 ([36236d3](https://github.com/dargmuesli/creal_strapi/commit/36236d3b7b2c7cc3fc54e215535b740d8670b0d9))
+
 ## [1.2.9](https://github.com/dargmuesli/creal_strapi/compare/1.2.8...1.2.9) (2021-06-01)
 
 
