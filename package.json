@@ -9,7 +9,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "prepare": "husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks"
   },
   "dependencies": {
     "knex": "0.95.6",
@@ -27,7 +28,8 @@
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
-    "husky": "4.3.8"
+    "husky": "7.0.1",
+    "shx": "0.3.3"
   },
   "strapi": {
     "uuid": "6cce022b-3a19-4edf-9549-fac432b13db0"
@@ -36,10 +38,5 @@
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
-  "license": "MIT",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  }
+  "license": "MIT"
 }
