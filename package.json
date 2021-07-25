@@ -13,7 +13,7 @@
     "prepare": "husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks"
   },
   "dependencies": {
-    "knex": "0.95.7",
+    "knex": "0.95.8",
     "pg": "8.6.0",
     "strapi": "3.6.5",
     "strapi-admin": "3.6.5",
