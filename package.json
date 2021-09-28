@@ -26,8 +26,8 @@
     "strapi-utils": "3.6.8"
   },
   "devDependencies": {
-    "@commitlint/cli": "13.1.0",
-    "@commitlint/config-conventional": "13.1.0",
+    "@commitlint/cli": "13.2.0",
+    "@commitlint/config-conventional": "13.2.0",
     "husky": "7.0.2",
     "shx": "0.3.3"
   },
