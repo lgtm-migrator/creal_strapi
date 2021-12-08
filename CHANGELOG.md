@@ -1,3 +1,10 @@
+## [1.2.24](https://github.com/dargmuesli/creal_strapi/compare/1.2.23...1.2.24) (2021-12-08)
+
+
+### Bug Fixes
+
+* **node:** use version 14 ([38ff20c](https://github.com/dargmuesli/creal_strapi/commit/38ff20c721881325f567bf90c727c631a6f9fd74))
+
 ## [1.2.23](https://github.com/dargmuesli/creal_strapi/compare/1.2.22...1.2.23) (2021-12-01)
 
 
