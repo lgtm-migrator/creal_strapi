@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/dargmuesli/creal_strapi/compare/1.2.24...2.0.0) (2021-12-08)
+
+
+### Features
+
+* migrate to v4 ([453b42c](https://github.com/dargmuesli/creal_strapi/commit/453b42c5bb6cc85adddf2b528c147aa9a0806c5b))
+
+
+### BREAKING CHANGES
+
+* migrate to v4
+
 ## [1.2.24](https://github.com/dargmuesli/creal_strapi/compare/1.2.23...1.2.24) (2021-12-08)
 
 
