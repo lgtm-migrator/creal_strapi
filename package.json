@@ -23,7 +23,7 @@
     "@strapi/plugin-users-permissions": "4.0.7",
     "@strapi/strapi": "4.0.7",
     "pg": "8.7.3",
-    "sharp": "0.30.0"
+    "sharp": "0.30.1"
   },
   "strapi": {
     "uuid": "6cce022b-3a19-4edf-9549-fac432b13db0"
