@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/dargmuesli/creal_strapi/compare/2.0.8...2.0.9) (2022-04-14)
+
+
+### Bug Fixes
+
+* auth ([bafe7f2](https://github.com/dargmuesli/creal_strapi/commit/bafe7f2137f835268f98baf1bfc2d4828b782d78))
+
 ## [2.0.8](https://github.com/dargmuesli/creal_strapi/compare/2.0.7...2.0.8) (2022-04-04)
 
 
