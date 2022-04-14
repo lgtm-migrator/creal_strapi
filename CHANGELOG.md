@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/dargmuesli/creal_strapi/compare/2.0.9...2.1.0) (2022-04-14)
+
+
+### Features
+
+* **docker:** add development configuration ([cb38629](https://github.com/dargmuesli/creal_strapi/commit/cb3862930c616568c8f4eab93f4f5aaccc448e5b))
+* **event:** add location ([f6d13a9](https://github.com/dargmuesli/creal_strapi/commit/f6d13a99dc27453c11c00cd9f836fcf32d70e8ac))
+
 ## [2.0.9](https://github.com/dargmuesli/creal_strapi/compare/2.0.8...2.0.9) (2022-04-14)
 
 
