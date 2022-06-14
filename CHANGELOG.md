@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/dargmuesli/creal_strapi/compare/2.2.0...2.3.0) (2022-06-14)
+
+
+### Features
+
+* **config:** add production configuration ([30b0970](https://github.com/dargmuesli/creal_strapi/commit/30b09709f5acd2100cd856838f703ab873ba10cb))
+
 # [2.2.0](https://github.com/dargmuesli/creal_strapi/compare/2.1.7...2.2.0) (2022-06-14)
 
 
