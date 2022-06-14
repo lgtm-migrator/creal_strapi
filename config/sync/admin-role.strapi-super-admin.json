@@ -17,7 +17,8 @@
           "location"
         ],
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -27,7 +28,8 @@
       "subject": "api::event.event",
       "properties": {
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -37,7 +39,8 @@
       "subject": "api::event.event",
       "properties": {
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -56,7 +59,8 @@
           "location"
         ],
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -75,7 +79,8 @@
           "location"
         ],
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -89,7 +94,8 @@
           "answer"
         ],
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -99,7 +105,8 @@
       "subject": "api::faq.faq",
       "properties": {
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -109,7 +116,8 @@
       "subject": "api::faq.faq",
       "properties": {
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -123,7 +131,8 @@
           "answer"
         ],
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []
@@ -137,7 +146,8 @@
           "answer"
         ],
         "locales": [
-          "en"
+          "en",
+          "de"
         ]
       },
       "conditions": []

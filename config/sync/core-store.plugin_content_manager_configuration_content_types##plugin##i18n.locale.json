@@ -15,63 +15,63 @@
       "id": {
         "edit": {},
         "list": {
-          "label": "id",
+          "label": "Id",
           "searchable": true,
           "sortable": true
         }
       },
       "name": {
         "edit": {
-          "label": "name",
+          "label": "Name",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "name",
+          "label": "Name",
           "searchable": true,
           "sortable": true
         }
       },
       "code": {
         "edit": {
-          "label": "code",
+          "label": "Code",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "code",
+          "label": "Code",
           "searchable": true,
           "sortable": true
         }
       },
       "createdAt": {
         "edit": {
-          "label": "createdAt",
+          "label": "CreatedAt",
           "description": "",
           "placeholder": "",
           "visible": false,
           "editable": true
         },
         "list": {
-          "label": "createdAt",
+          "label": "CreatedAt",
           "searchable": true,
           "sortable": true
         }
       },
       "updatedAt": {
         "edit": {
-          "label": "updatedAt",
+          "label": "UpdatedAt",
           "description": "",
           "placeholder": "",
           "visible": false,
           "editable": true
         },
         "list": {
-          "label": "updatedAt",
+          "label": "UpdatedAt",
           "searchable": true,
           "sortable": true
         }

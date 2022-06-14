@@ -15,150 +15,147 @@
       "id": {
         "edit": {},
         "list": {
-          "label": "id",
+          "label": "Id",
           "searchable": true,
           "sortable": true
         }
       },
       "title": {
         "edit": {
-          "label": "title",
+          "label": "Title",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "title",
+          "label": "Title",
           "searchable": true,
           "sortable": true
         }
       },
       "description": {
         "edit": {
-          "label": "description",
+          "label": "Description",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "description",
+          "label": "Description",
           "searchable": false,
           "sortable": false
         }
       },
       "dateStart": {
         "edit": {
-          "label": "dateStart",
+          "label": "DateStart",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "dateStart",
+          "label": "DateStart",
           "searchable": true,
           "sortable": true
         }
       },
       "dateEnd": {
         "edit": {
-          "label": "dateEnd",
+          "label": "DateEnd",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "dateEnd",
+          "label": "DateEnd",
           "searchable": true,
           "sortable": true
         }
       },
       "url": {
         "edit": {
-          "label": "url",
+          "label": "Url",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "url",
+          "label": "Url",
           "searchable": true,
           "sortable": true
         }
       },
       "image": {
         "edit": {
-          "label": "image",
+          "label": "Image",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "image",
+          "label": "Image",
           "searchable": false,
           "sortable": false
         }
       },
       "location": {
         "edit": {
-          "label": "location",
+          "label": "Location",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "location",
+          "label": "Location",
           "searchable": true,
           "sortable": true
         }
       },
       "createdAt": {
         "edit": {
-          "label": "createdAt",
+          "label": "CreatedAt",
           "description": "",
           "placeholder": "",
           "visible": false,
           "editable": true
         },
         "list": {
-          "label": "createdAt",
+          "label": "CreatedAt",
           "searchable": true,
           "sortable": true
         }
       },
       "updatedAt": {
         "edit": {
-          "label": "updatedAt",
+          "label": "UpdatedAt",
           "description": "",
           "placeholder": "",
           "visible": false,
           "editable": true
         },
         "list": {
-          "label": "updatedAt",
+          "label": "UpdatedAt",
           "searchable": true,
           "sortable": true
         }
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "title",
-        "dateStart",
-        "dateEnd"
-      ],
-      "editRelations": [],
       "edit": [
         [
           {
             "name": "title",
+            "size": 6
+          },
+          {
+            "name": "location",
             "size": 6
           }
         ],
@@ -187,13 +184,14 @@
             "name": "image",
             "size": 6
           }
-        ],
-        [
-          {
-            "name": "location",
-            "size": 6
-          }
         ]
+      ],
+      "editRelations": [],
+      "list": [
+        "id",
+        "title",
+        "dateStart",
+        "dateEnd"
       ]
     }
   },
