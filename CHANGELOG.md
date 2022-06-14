@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/dargmuesli/creal_strapi/compare/2.1.7...2.2.0) (2022-06-14)
+
+
+### Features
+
+* **config:** add sync plugin ([c038475](https://github.com/dargmuesli/creal_strapi/commit/c03847501ada490c7a8732bf0d1a9f0974d1f106))
+
 ## [2.1.7](https://github.com/dargmuesli/creal_strapi/compare/2.1.6...2.1.7) (2022-06-13)
 
 
