@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/dargmuesli/creal_strapi/compare/2.3.0...2.3.1) (2022-06-15)
+
+
+### Bug Fixes
+
+* **config:** correct default locale ([110d542](https://github.com/dargmuesli/creal_strapi/commit/110d542184e11e87919d433d203674d8c6a9c131))
+
 # [2.3.0](https://github.com/dargmuesli/creal_strapi/compare/2.2.0...2.3.0) (2022-06-14)
 
 
