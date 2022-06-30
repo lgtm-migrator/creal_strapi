@@ -13,8 +13,8 @@
     "prepare": "if [[ -d '.git' && -d '.husky' ]]; then husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks; fi"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.2",
-    "@commitlint/config-conventional": "17.0.2",
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
     "husky": "8.0.1",
     "shx": "0.3.4"
   },
@@ -23,7 +23,7 @@
     "@strapi/plugin-users-permissions": "4.1.12",
     "@strapi/strapi": "4.1.12",
     "pg": "8.7.3",
-    "sharp": "0.30.6",
+    "sharp": "0.30.7",
     "strapi-plugin-config-sync": "1.0.2"
   },
   "strapi": {
