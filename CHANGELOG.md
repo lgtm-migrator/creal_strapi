@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/dargmuesli/creal_strapi/compare/2.3.5...2.4.0) (2022-08-07)
+
+
+### Features
+
+* **docker:** dockerize ([3b922db](https://github.com/dargmuesli/creal_strapi/commit/3b922dbb13cf59acbb8c5ba601b7b80ffd92c013))
+
 ## [2.3.5](https://github.com/dargmuesli/creal_strapi/compare/2.3.4...2.3.5) (2022-08-01)
 
 
