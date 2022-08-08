@@ -24,7 +24,7 @@
     "@strapi/strapi": "4.3.2",
     "pg": "8.7.3",
     "sharp": "0.30.7",
-    "strapi-plugin-config-sync": "1.0.2"
+    "strapi-plugin-config-sync": "1.0.3"
   },
   "strapi": {
     "uuid": "6cce022b-3a19-4edf-9549-fac432b13db0"
