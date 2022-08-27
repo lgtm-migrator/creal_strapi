@@ -13,8 +13,8 @@
     "prepare": "if [[ -d '.git' && -d '.husky' ]]; then husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks; fi"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.3",
-    "@commitlint/config-conventional": "17.0.3",
+    "@commitlint/cli": "17.1.1",
+    "@commitlint/config-conventional": "17.1.0",
     "husky": "8.0.1",
     "shx": "0.3.4"
   },
