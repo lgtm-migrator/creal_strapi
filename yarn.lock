@@ -9875,10 +9875,10 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.2.1.tgz#00e260ec3901333537125f81282b9296b00d7304"
   integrity sha512-D/uYFWkI/31OrnKmXZqGAGK5GbQRPp/BWA1nuITcc6ICblhhuQUPHS5E2GSCVS7Hwhf4ciq8qsATwBUxv+lI6w==
 
-strapi-plugin-config-sync@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-config-sync/-/strapi-plugin-config-sync-1.0.3.tgz#f46608281be4b8bca7cf3f76a05be1564c667741"
-  integrity sha512-tBTHQDHseoeJhHkK1n35qAgaiPlQ/WrIaHMClBSZRCwQtD9yElRqU6NVRroTHkEOPdUOLPmJyZC/G78ZC4L3Gg==
+strapi-plugin-config-sync@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-config-sync/-/strapi-plugin-config-sync-1.0.4.tgz#27be1ff9878cfb3b66b406ceb91c65808cc17fe4"
+  integrity sha512-v/dB2AkNhoP1KSmmDk85y0SLfmqtWL0udlMMykTOmPA3qMXveslJ5u/Zejpk0t0y20iraNxmZ/vjuo1SFmBLnQ==
   dependencies:
     chalk "^4.1.2"
     cli-table "^0.3.6"
