@@ -19,9 +19,9 @@
     "shx": "0.3.4"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.3.9",
-    "@strapi/plugin-users-permissions": "4.3.9",
-    "@strapi/strapi": "4.3.9",
+    "@strapi/plugin-i18n": "4.4.0",
+    "@strapi/plugin-users-permissions": "4.4.0",
+    "@strapi/strapi": "4.4.0",
     "pg": "8.8.0",
     "sharp": "0.31.0",
     "strapi-plugin-config-sync": "1.0.4"
