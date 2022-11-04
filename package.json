@@ -23,7 +23,7 @@
     "@strapi/plugin-users-permissions": "4.4.6",
     "@strapi/strapi": "4.4.6",
     "pg": "8.8.0",
-    "sharp": "0.31.1",
+    "sharp": "0.31.2",
     "strapi-plugin-config-sync": "1.0.4"
   },
   "strapi": {
