@@ -4,11 +4,11 @@ RUN apk update && apk add build-base gcc autoconf automake zlib-dev libpng-dev n
   && rm -rf /var/cache/apk/* > /dev/null 2>&1
 ARG NODE_ENV=development
 ENV NODE_ENV=${NODE_ENV}
-WORKDIR /opt/
+WORKDIR /srv/
 COPY ./package.json ./yarn.lock ./
-ENV PATH /opt/node_modules/.bin:$PATH
+ENV PATH /srv/node_modules/.bin:$PATH
 RUN yarn config set network-timeout 600000 -g && yarn install
-WORKDIR /opt/app
+WORKDIR /srv/app
 COPY ./ .
 RUN yarn build
 EXPOSE 1337
@@ -20,8 +20,8 @@ RUN apk add vips-dev \
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 WORKDIR /app
-COPY --from=development /opt/node_modules ./node_modules
-ENV PATH /opt/node_modules/.bin:$PATH
-COPY --from=development /opt/app ./
+COPY --from=development /srv/node_modules ./node_modules
+ENV PATH /srv/node_modules/.bin:$PATH
+COPY --from=development /srv/app ./
 EXPOSE 1337
 CMD ["yarn", "start"]
