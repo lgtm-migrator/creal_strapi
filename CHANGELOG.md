@@ -1,3 +1,10 @@
+## [2.4.8](https://github.com/dargmuesli/creal_strapi/compare/2.4.7...2.4.8) (2022-11-06)
+
+
+### Bug Fixes
+
+* **docker:** correct workdir ([d27b501](https://github.com/dargmuesli/creal_strapi/commit/d27b5019180c30d543873293c0319975a4b88a15))
+
 ## [2.4.7](https://github.com/dargmuesli/creal_strapi/compare/2.4.6...2.4.7) (2022-10-31)
 
 
