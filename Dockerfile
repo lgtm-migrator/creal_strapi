@@ -1,4 +1,4 @@
-FROM node:18.12.0-alpine@sha256:ccd756ecfba8272d6638b0a39f2a2f175b4a3c03f2f045be1c5a9d29914fbc0e AS development
+FROM node:18.12.1-alpine@sha256:b78c9500958805b52214e8bd588defe55ec32116dfdc094e3ca652a3502d67df AS development
 # Installing libvips-dev for sharp Compatability
 RUN apk update && apk add build-base gcc autoconf automake zlib-dev libpng-dev nasm bash vips-dev \
   && rm -rf /var/cache/apk/* > /dev/null 2>&1
@@ -14,7 +14,7 @@ RUN yarn build
 EXPOSE 1337
 CMD yarn && yarn develop
 
-FROM node:18.12.0-alpine@sha256:ccd756ecfba8272d6638b0a39f2a2f175b4a3c03f2f045be1c5a9d29914fbc0e
+FROM node:18.12.1-alpine@sha256:b78c9500958805b52214e8bd588defe55ec32116dfdc094e3ca652a3502d67df
 RUN apk add vips-dev \
   && rm -rf /var/cache/apk/*
 ARG NODE_ENV=production
